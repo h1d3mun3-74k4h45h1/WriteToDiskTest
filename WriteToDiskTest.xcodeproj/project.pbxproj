@@ -15,6 +15,9 @@
 		A50A67D824DBB95800FABA4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A50A67D624DBB95800FABA4F /* LaunchScreen.storyboard */; };
 		A50A67E324DBB95800FABA4F /* WriteToDiskTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50A67E224DBB95800FABA4F /* WriteToDiskTestTests.swift */; };
 		A50A67EE24DBB95800FABA4F /* WriteToDiskTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50A67ED24DBB95800FABA4F /* WriteToDiskTestUITests.swift */; };
+		A50A67FC24DBBBCD00FABA4F /* ContentViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50A67FB24DBBBCC00FABA4F /* ContentViewPresenter.swift */; };
+		A50A67FE24DBBC1300FABA4F /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50A67FD24DBBC1300FABA4F /* ContentViewModel.swift */; };
+		A50A680024DBBF8600FABA4F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A50A67FF24DBBF8600FABA4F /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		A50A67E924DBB95800FABA4F /* WriteToDiskTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WriteToDiskTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A50A67ED24DBB95800FABA4F /* WriteToDiskTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteToDiskTestUITests.swift; sourceTree = "<group>"; };
 		A50A67EF24DBB95800FABA4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A50A67FB24DBBBCC00FABA4F /* ContentViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewPresenter.swift; sourceTree = "<group>"; };
+		A50A67FD24DBBC1300FABA4F /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		A50A67FF24DBBF8600FABA4F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +85,7 @@
 		A50A67BF24DBB95400FABA4F = {
 			isa = PBXGroup;
 			children = (
+				A50A67FF24DBBF8600FABA4F /* README.md */,
 				A50A67CA24DBB95400FABA4F /* WriteToDiskTest */,
 				A50A67E124DBB95800FABA4F /* WriteToDiskTestTests */,
 				A50A67EC24DBB95800FABA4F /* WriteToDiskTestUITests */,
@@ -102,6 +109,8 @@
 				A50A67CB24DBB95400FABA4F /* AppDelegate.swift */,
 				A50A67CD24DBB95400FABA4F /* SceneDelegate.swift */,
 				A50A67CF24DBB95400FABA4F /* ContentView.swift */,
+				A50A67FB24DBBBCC00FABA4F /* ContentViewPresenter.swift */,
+				A50A67FD24DBBC1300FABA4F /* ContentViewModel.swift */,
 				A50A67D124DBB95800FABA4F /* Assets.xcassets */,
 				A50A67D624DBB95800FABA4F /* LaunchScreen.storyboard */,
 				A50A67D924DBB95800FABA4F /* Info.plist */,
@@ -242,6 +251,7 @@
 			files = (
 				A50A67D824DBB95800FABA4F /* LaunchScreen.storyboard in Resources */,
 				A50A67D524DBB95800FABA4F /* Preview Assets.xcassets in Resources */,
+				A50A680024DBBF8600FABA4F /* README.md in Resources */,
 				A50A67D224DBB95800FABA4F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,6 +280,8 @@
 				A50A67CC24DBB95400FABA4F /* AppDelegate.swift in Sources */,
 				A50A67CE24DBB95400FABA4F /* SceneDelegate.swift in Sources */,
 				A50A67D024DBB95400FABA4F /* ContentView.swift in Sources */,
+				A50A67FC24DBBBCD00FABA4F /* ContentViewPresenter.swift in Sources */,
+				A50A67FE24DBBC1300FABA4F /* ContentViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

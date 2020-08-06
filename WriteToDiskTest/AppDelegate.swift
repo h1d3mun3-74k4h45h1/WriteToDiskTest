@@ -1,11 +1,3 @@
-//
-//  AppDelegate.swift
-//  WriteToDiskTest
-//
-//  Created by h1d3mun3 on 8/6/20.
-//  Copyright © 2020 h1d3mun3. All rights reserved.
-//
-
 import UIKit
 
 @UIApplicationMain
